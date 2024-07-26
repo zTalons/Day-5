@@ -1,0 +1,65 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+
+}
+header{ 
+    background-color: aqua;
+ grid-column: 3/9;
+ grid-row: 
+
+}
+
+section{
+    background-color: bisque;
+    grid-area: section;
+}
+nav{
+
+background-color: blueviolet;
+grid-row: 1/9; 
+grid-column: 1/3;
+
+
+}
+article{
+background-color: brown;
+grid-area: 2/3/6/7;
+
+}
+section{
+background-color: chocolate;
+
+
+}
+footer{
+    background-color: cadetblue;
+    grid-area: 6/3/9/9;
+}
+
+section{
+    background-color: black;
+    grid-area: 2/6/6/9;
+}
+@media (max-width:800px)
+{
+    body{
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+    }
